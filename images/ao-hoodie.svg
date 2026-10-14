@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 690" role="img" aria-labelledby="title">
+  <title id="title">Minh họa áo hoodie</title>
+  <rect width="600" height="690" fill="#f7f7f7"/>
+  <path d="M234 153c-1-48 34-79 90-79s91 31 90 79l44 12 87 88-55 57-48-44v276H216V266l-48 44-55-57 87-88z" fill="#dededb" stroke="#aaa9a5" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M269 141c0-32 22-52 55-52s55 20 55 52l-23 27h-64z" fill="#d2d2cf" stroke="#aaa9a5" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M273 367c0 42 22 69 51 69s51-27 51-69l-22-9h-58z" fill="#d2d2cf" stroke="#aaa9a5" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M216 542h232M216 266l24 24m184-24-24 24m-90-122v68" fill="none" stroke="#c1c0bc" stroke-width="3"/>
+</svg>

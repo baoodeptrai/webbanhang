@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 690" role="img" aria-labelledby="title">
+  <title id="title">Minh họa áo thun oversize</title>
+  <rect width="600" height="690" fill="#f7f7f7"/>
+  <path d="m205 119 67-32c12 28 28 42 52 42s40-14 52-42l67 32 101 93-56 66-56-43v306H227V235l-56 43-56-66z" fill="#dededb" stroke="#aaa9a5" stroke-width="4" stroke-linejoin="round"/>
+  <ellipse cx="324" cy="126" rx="41" ry="21" fill="#f7f7f7" stroke="#aaa9a5" stroke-width="4"/>
+  <path d="M227 551h205M227 235l28 22m177-22-28 22M171 278l22-27m291 27-22-27" fill="none" stroke="#c1c0bc" stroke-width="3"/>
+</svg>

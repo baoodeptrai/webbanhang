@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://baoodeptrai.github.io/webbanhang/sitemap.xml

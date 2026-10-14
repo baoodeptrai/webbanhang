@@ -1,0 +1,88 @@
+[
+  {
+    "id": "ao-thun-basic",
+    "name": "Áo thun basic",
+    "category": "t-shirt",
+    "price": 149000,
+    "currency": "VND",
+    "description": "Phom cơ bản, phù hợp in chữ, hình minh họa và thiết kế tối giản.",
+    "tag": "Sản phẩm chủ lực",
+    "image": "images/ao-thun-basic.svg",
+    "imageAlt": "Ảnh minh họa áo thun basic",
+    "colors": [
+      { "name": "Trắng", "hex": "#ffffff" },
+      { "name": "Đen", "hex": "#171717" },
+      { "name": "Xám", "hex": "#929292" },
+      { "name": "Be", "hex": "#d8c3a5" }
+    ],
+    "sizes": ["S", "M", "L", "XL", "2XL"]
+  },
+  {
+    "id": "ao-thun-oversize",
+    "name": "Áo thun oversize",
+    "category": "t-shirt",
+    "price": 199000,
+    "currency": "VND",
+    "description": "Phom rộng phong cách streetwear, hợp với hình in lớn ở mặt trước hoặc sau.",
+    "image": "images/ao-thun-oversize.svg",
+    "imageAlt": "Ảnh minh họa áo thun oversize",
+    "colors": [
+      { "name": "Đen", "hex": "#171717" },
+      { "name": "Trắng", "hex": "#ffffff" },
+      { "name": "Xám", "hex": "#929292" },
+      { "name": "Nâu", "hex": "#72513b" }
+    ],
+    "sizes": ["S", "M", "L", "XL", "2XL"]
+  },
+  {
+    "id": "ao-thun-cotton-day-dan",
+    "name": "Áo thun cotton dày dặn",
+    "category": "t-shirt",
+    "price": 229000,
+    "currency": "VND",
+    "description": "Mẫu áo định vị cao hơn basic, phù hợp thiết kế nghệ thuật, tranh vẽ và thương hiệu riêng.",
+    "image": "images/ao-thun-cotton-day-dan.svg",
+    "imageAlt": "Ảnh minh họa áo thun cotton dày dặn",
+    "colors": [
+      { "name": "Kem", "hex": "#eee4d2" },
+      { "name": "Đen", "hex": "#171717" },
+      { "name": "Trắng", "hex": "#ffffff" },
+      { "name": "Xanh navy", "hex": "#29354c" }
+    ],
+    "sizes": ["S", "M", "L", "XL", "2XL"]
+  },
+  {
+    "id": "ao-hoodie",
+    "name": "Áo hoodie",
+    "category": "hoodie",
+    "price": 329000,
+    "currency": "VND",
+    "description": "Phù hợp với thiết kế graphic lớn, phong cách cá tính và bộ sưu tập theo chủ đề.",
+    "image": "images/ao-hoodie.svg",
+    "imageAlt": "Ảnh minh họa áo hoodie",
+    "colors": [
+      { "name": "Đen", "hex": "#171717" },
+      { "name": "Xám", "hex": "#929292" },
+      { "name": "Kem", "hex": "#eee4d2" },
+      { "name": "Navy", "hex": "#29354c" }
+    ],
+    "sizes": ["S", "M", "L", "XL", "2XL"]
+  },
+  {
+    "id": "ao-ni-co-tron",
+    "name": "Áo nỉ cổ tròn",
+    "category": "sweatshirt",
+    "price": 279000,
+    "currency": "VND",
+    "description": "Hợp với thiết kế nhỏ trước ngực, typography và phong cách tối giản.",
+    "image": "images/ao-ni-co-tron.svg",
+    "imageAlt": "Ảnh minh họa áo nỉ cổ tròn",
+    "colors": [
+      { "name": "Xám", "hex": "#929292" },
+      { "name": "Đen", "hex": "#171717" },
+      { "name": "Kem", "hex": "#eee4d2" },
+      { "name": "Nâu", "hex": "#72513b" }
+    ],
+    "sizes": ["S", "M", "L", "XL", "2XL"]
+  }
+]

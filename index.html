@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Áo thiết kế theo yêu cầu</title>
+  <meta
+    name="description"
+    content="Chọn mẫu áo yêu thích, chia sẻ ý tưởng thiết kế và đặt áo theo yêu cầu."
+  />
+  <meta name="theme-color" content="#ffffff" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <script src="js/app.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">ÁO THIẾT KẾ<span>.</span></a>
+
+    <nav class="main-nav" aria-label="Điều hướng chính">
+      <a href="#catalog">Sản phẩm</a>
+      <a href="#how-it-works">Cách đặt hàng</a>
+      <a href="#contact">Liên hệ</a>
+    </nav>
+
+    <a class="header-cta" href="#catalog">Khám phá sản phẩm ↗</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">THIẾT KẾ THEO YÊU CẦU</p>
+
+      <h1>Biến ý tưởng của bạn<br />thành <span>chiếc áo riêng.</span></h1>
+
+      <p class="hero-description">
+        Chọn mẫu áo yêu thích, chia sẻ ý tưởng thiết kế và để chúng tôi
+        giúp bạn hoàn thiện sản phẩm.
+      </p>
+
+      <a class="primary-button" href="#catalog">
+        Khám phá sản phẩm <span>↓</span>
+      </a>
+
+      <p class="hero-note">Một chiếc áo mang dấu ấn của riêng bạn.</p>
+    </section>
+
+    <section class="catalog-section" id="catalog">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">CHỌN MẪU ÁO</p>
+          <h2>Khám phá sản phẩm</h2>
+          <p class="section-description">
+            Chọn mẫu áo, màu sắc và kích cỡ phù hợp với bạn.
+          </p>
+        </div>
+
+        <span id="product-count" class="product-count">
+          Danh mục sản phẩm
+        </span>
+      </div>
+
+      <p class="catalog-note">
+        Giá, ảnh minh họa, chất liệu và kích cỡ hiện là thông tin tham khảo,
+        chưa phải báo giá hoặc xác nhận mẫu từ xưởng. Vui lòng xác nhận giá,
+        mẫu hàng và các chi phí liên quan trước khi đặt.
+      </p>
+
+      <div
+        class="category-filters"
+        id="category-filters"
+        aria-label="Lọc sản phẩm"
+      >
+        <button class="filter-button active" data-category="all" aria-pressed="true">
+          Tất cả
+        </button>
+        <button class="filter-button" data-category="t-shirt" aria-pressed="false">
+          Áo thun
+        </button>
+        <button class="filter-button" data-category="hoodie" aria-pressed="false">
+          Áo hoodie
+        </button>
+        <button class="filter-button" data-category="sweatshirt" aria-pressed="false">
+          Áo nỉ
+        </button>
+      </div>
+
+      <div class="product-grid" id="product-grid">
+        <p class="loading-message">Đang tải sản phẩm...</p>
+      </div>
+    </section>
+
+    <section class="how-section" id="how-it-works">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">ĐẶT ÁO ĐƠN GIẢN</p>
+          <h2>Cách thức đặt hàng</h2>
+        </div>
+      </div>
+
+      <div class="steps-grid">
+        <article class="step">
+          <span class="step-number">01</span>
+          <h3>Chọn mẫu áo</h3>
+          <p>
+            Chọn kiểu áo, màu sắc, kích cỡ và số lượng mong muốn.
+          </p>
+        </article>
+
+        <article class="step">
+          <span class="step-number">02</span>
+          <h3>Gửi ý tưởng</h3>
+          <p>
+            Chia sẻ hình ảnh tham khảo hoặc mô tả thiết kế bạn muốn.
+          </p>
+        </article>
+
+        <article class="step">
+          <span class="step-number">03</span>
+          <h3>Xác nhận đơn hàng</h3>
+          <p>
+            Trao đổi với shop để thống nhất thiết kế, giá và thời gian giao
+            trước khi đặt hàng.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="closing-section" id="contact">
+      <p class="eyebrow">LIÊN HỆ VỚI SHOP</p>
+      <h2>Bạn đã có ý tưởng?</h2>
+      <p class="section-description">
+        Chọn sản phẩm để tạo tin nhắn và liên hệ shop qua kênh đã được cấu hình.
+      </p>
+      <a class="primary-button" href="#catalog">
+        Khám phá sản phẩm ↗
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="logo" href="index.html">ÁO THIẾT KẾ<span>.</span></a>
+    <p>Thiết kế theo ý tưởng của bạn.</p>
+    <p>© <span id="current-year"></span> Áo thiết kế.</p>
+  </footer>
+
+  <div
+    id="message-modal"
+    class="message-modal"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="message-title"
+    aria-describedby="message-description"
+    hidden
+  >
+    <div class="message-box">
+      <button id="close-message" type="button" aria-label="Đóng">×</button>
+      <h2 id="message-title">Yêu cầu đặt áo</h2>
+      <p id="message-description">Tin nhắn được tạo theo lựa chọn của bạn. Sao chép và gửi cho shop nhé.</p>
+      <textarea id="order-message" readonly></textarea>
+      <button id="copy-message" type="button">Sao chép tin nhắn</button>
+      <div class="message-channels" aria-label="Chọn kênh liên hệ">
+        <button id="open-messenger" type="button">Messenger</button>
+        <button id="open-zalo" type="button">Zalo</button>
+        <button id="open-instagram" type="button">Instagram</button>
+      </div>
+      <p id="message-status" role="status" aria-live="polite"></p>
+    </div>
+  </div>
+
+  <div class="floating-chat">
+    <div
+      class="chat-panel"
+      id="chatPanel"
+      role="region"
+      aria-label="Chọn kênh liên hệ"
+      hidden
+    >
+      <div class="chat-panel-header">
+        <div>
+          <strong>Bạn cần hỗ trợ?</strong>
+          <p>Nhắn shop để được tư vấn và đặt áo.</p>
+        </div>
+        <button class="chat-close" id="chatClose" type="button" aria-label="Đóng">×</button>
+      </div>
+
+      <div class="chat-options">
+        <button class="chat-option" type="button" data-chat="messenger">
+          <span class="app-icon messenger-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M12 2C6.48 2 2 6.15 2 11.27c0 2.92 1.47 5.52 3.77 7.2V22l3.44-1.89c.89.25 1.82.38 2.79.38 5.52 0 10-4.15 10-9.22S17.52 2 12 2Zm1 12.43-2.55-2.72-4.98 2.72 5.48-5.81 2.62 2.72 4.91-2.72L13 14.43Z"/>
+            </svg>
+          </span>
+          <span>Messenger</span>
+          <span class="chat-arrow" aria-hidden="true">›</span>
+        </button>
+
+        <button class="chat-option" type="button" data-chat="zalo">
+          <span class="app-icon zalo-icon" aria-hidden="true">Zalo</span>
+          <span>Zalo</span>
+          <span class="chat-arrow" aria-hidden="true">›</span>
+        </button>
+
+        <button class="chat-option" type="button" data-chat="instagram">
+          <span class="app-icon instagram-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+              <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/>
+              <circle cx="17.5" cy="6.8" r="1.2" fill="currentColor"/>
+            </svg>
+          </span>
+          <span>Instagram</span>
+          <span class="chat-arrow" aria-hidden="true">›</span>
+        </button>
+      </div>
+      <p class="chat-status" id="chatStatus" role="status" aria-live="polite"></p>
+    </div>
+
+    <button
+      class="floating-chat-button"
+      id="chatToggle"
+      type="button"
+      aria-label="Mở hộp chat"
+      aria-expanded="false"
+      aria-controls="chatPanel"
+    >
+      <svg class="chat-main-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8v.5Z"
+          fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+  </div>
+</body>
+</html>
